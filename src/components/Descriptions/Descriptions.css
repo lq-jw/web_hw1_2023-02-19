@@ -1,0 +1,17 @@
+.description__layout {
+    background-color: #00979c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  @media screen and (min-width: 768px) {
+     .description__layout {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  
+  .description__content {
+    text-indent: 2rem;
+  }
