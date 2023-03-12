@@ -1,12 +1,12 @@
-import styles from "./ImgItem.css"
+import styles from "./ImgItem.module.css"
 
 function ImgItem({img}){
     return(
-      <div className="image mt-4 col-sm-6 col-lg-3">
-        <a href={img.href} className="link">
-          <img src={img.img} alt={img.alt} className="style"/>
+      <div className={styles.image}>
+        <a href={img.href} className={styles.link}>
+          <img src={img.src} alt={img.alt} className={styles.style}/>
         </a>
-        <p className="title">{img.title}</p>
+        <p className={styles.title}>{img.title}</p>
       </div>
     );
 }

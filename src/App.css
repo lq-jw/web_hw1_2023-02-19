@@ -17,19 +17,29 @@ body{
   min-height: 100vh;
   grid-template-areas: 
     'header'
+    'titleSection'
     'contentt'
+    'descriptions'
     'footer'
   ;
   grid-template-rows: auto 1fr auto;
-  gap: 1rem;
+
 }
 
 .header{
   grid-area: header;
 }
 
+.titleSection{
+  grid-area: titleSection;
+}
+
 .content{
-  grid-area: contentt;
+  grid-area: content;
+}
+
+.descriptions{
+  grid-area: descriptions;
 }
 
 .footer{

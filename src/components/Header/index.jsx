@@ -1,14 +1,13 @@
-import styles from "./header.css"
+import styles from "./header.module.css"
+import { DividerLight } from "../Divider";
 
 function Header(){
     return(
-        <header className="header">
-            <div className="container d-flex flex-column align-items-center">
-                <img className="avatar" src="./images/avatar.png" alt="avatar" />
-                <h1 className="title">Name</h1>
-                <hr className="divider--light" />
-                <p className="slogan">Slogan</p>
-            </div>
+        <header className={`${styles.header} ${styles.box}`} >
+            <img className={styles.avatar} src="./images/avatar.png" alt="avatar" />
+            <h1 className={styles.name}>Name</h1>
+            <DividerLight/>
+            <p className={styles.slogan}>Slogan</p>
         </header>
     );
 }

@@ -4,6 +4,7 @@
   
   .link {
     display: block;
+    width: 100%;
   }
   
   .style {
@@ -15,6 +16,7 @@
     color: white;
     right: 2rem;
     bottom: 0;
+    font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
     position: absolute;
