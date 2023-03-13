@@ -1,12 +1,12 @@
 .header {
     background-color: #00979c;
-    height: 30vh;
+    height: 50vh;
     color: #fff;
     font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+
   }
 .name{
   font-size: 1.5rem;
@@ -16,12 +16,12 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    
+
   }
   
   @media screen and (min-width: 768px) {
     .header {
-      height: 40vh;
+      height: 70vh;
       font-size: 1rem;
     }
   }
