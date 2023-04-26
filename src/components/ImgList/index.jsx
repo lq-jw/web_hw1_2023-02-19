@@ -3,7 +3,7 @@ import ImgItem from "../ImgItem";
 import Styles from "./ImgList.module.css"
 import { Row , Col} from "antd";
 
-function ImgList(){
+function ImgList({imgs, isLoading}){
     return(
         <div className={`${Styles.section} ${Styles.box}`}>
             <Row gutter={[24, 24]} >
